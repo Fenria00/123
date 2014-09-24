@@ -1,0 +1,15 @@
+public class Fodder {
+
+	public static void main(String []args){}
+		
+	public static class mFodder{
+
+		String name;
+
+		public void foodname(String name){
+		 this.name = name;
+		 }
+	}
+}
+
+//食材只能抓名字
