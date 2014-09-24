@@ -1,0 +1,25 @@
+import java.util.*;
+
+public class BookFodder {
+
+	public static void main(String []args){
+		
+	}
+	
+	String nameary[] = null;
+	int weightary[] = null;
+	ArrayList<String[]> nameList = new ArrayList<String[]>(); 
+	ArrayList<int[]> weightList = new ArrayList<int[]>(); 
+	
+	Fodder fodder = new Fodder();
+	
+	nameList.add(nameary);
+	weightList.add(weightary);
+	
+
+	
+		
+		
+	}
+	
+	//食譜食材卡在arraylist不知怎存資料進去 16,17行的add顯示無法使用
