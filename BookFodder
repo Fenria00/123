@@ -1,25 +1,28 @@
 import java.util.*;
 
 public class BookFodder {
+    public static void main(String[] args) {
+    	
+            }
+    
+    public static void mWeightinput(){
+    	Scanner scanner = new Scanner(System.in);
+        
+        ArrayList<int> weightlist = new ArrayList<int>();
 
-	public static void main(String []args){
-		
-	}
-	
-	String nameary[] = null;
-	int weightary[] = null;
-	ArrayList<String[]> nameList = new ArrayList<String[]>(); 
-	ArrayList<int[]> weightList = new ArrayList<int[]>(); 
-	
-	Fodder fodder = new Fodder();
-	
-	nameList.add(nameary);
-	weightList.add(weightary);
-	
+        System.out.println("輸入重量(克)(使用quit結束)"); 
 
-	
-		
-		
-	}
-	
-	//食譜食材卡在arraylist不知怎存資料進去 16,17行的add顯示無法使用
+        while(true) { 
+            System.out.print("# "); 
+            int weightinput = scanner.nextInt(); 
+            if(weightinput.equals("quit"))
+                 break; 
+            weightlist.add(weightinput); 
+        }
+
+        System.out.print("顯示輸入: "); 
+        for(int i = 0; i < weightlist.size(); i++) 
+            System.out.print(weightlist.get(i) + " "); 
+        System.out.println(); 
+    }
+}
