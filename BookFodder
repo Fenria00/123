@@ -2,29 +2,32 @@ import java.util.*;
 import java.lang.Integer;
 
 public class BookFodder {
-    public static void main(String[] args) {
-    	
-            }
-    
-    public static void mWeightinput(){
-    	Scanner scanner = new Scanner(System.in);
-        
-        List<Integer> weightlist = new ArrayList<Integer>();
+	private static final String List = null;
 
-        System.out.println("輸入重量(克)(使用7777結束)"); 
+	public static void main(String[] args) {
 
-        while(true) { 
-        	
-            System.out.print("# "); 
-            int weightinput = scanner.nextInt(); 
-            if(weightinput == 7777)
-                 break; 
-            weightlist.add(weightinput); 
-        }
+	}
 
-        System.out.print("顯示輸入: "); 
-        for(int i = 0; i < weightlist.size(); i++) 
-            System.out.print(weightlist.get(i) + " "); 
-        System.out.println(); 
-    }
+		public static void mWeightinput() {
+			
+		Fodder fodder = new Fodder();
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("請以數字選擇食材:");
+		for(int i = 0;i < List.length();i++);
+		System.out.println(i + List[i]);
+		
+		int mFoddernumber = scanner.nextInt();
+		System.out.print("請輸入" + List[mFoddernumber] + "的重量:");
+		System.out.println();
+		
+		int weightinput = scanner.nextInt();
+		List<Integer> weightlist;
+		weightlist.add(weightinput);
+		
+		System.out.print("顯示輸入: ");
+		System.out.print(List[i] ": " + weightlist[i] + "克");
+		System.out.println();
+		
+	}
 }
