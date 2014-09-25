@@ -1,4 +1,5 @@
 import java.util.*;
+import java.lang.Integer;
 
 public class BookFodder {
     public static void main(String[] args) {
@@ -10,12 +11,13 @@ public class BookFodder {
         
         List<Integer> weightlist = new ArrayList<Integer>();
 
-        System.out.println("輸入重量(克)(使用quit結束)"); 
+        System.out.println("輸入重量(克)(使用7777結束)"); 
 
         while(true) { 
+        	
             System.out.print("# "); 
             int weightinput = scanner.nextInt(); 
-            if(weightinput.equals("quit"))
+            if(weightinput == 7777)
                  break; 
             weightlist.add(weightinput); 
         }
