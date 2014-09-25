@@ -8,7 +8,7 @@ public class BookFodder {
     public static void mWeightinput(){
     	Scanner scanner = new Scanner(System.in);
         
-        ArrayList<int> weightlist = new ArrayList<int>();
+        List<Integer> weightlist = new ArrayList<Integer>();
 
         System.out.println("輸入重量(克)(使用quit結束)"); 
 
