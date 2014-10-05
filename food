@@ -1,0 +1,27 @@
+
+public class Food {
+
+	public static void main(String []args){
+		
+	}
+	
+	public static class mGetName{
+		
+		public static void nameinput(){
+			
+		}
+		
+		public static void returnname(){
+			
+		}
+	public static class mNameList{}
+	
+	}
+	
+	
+			}
+			
+			抓食材用class
+	
+	
+
