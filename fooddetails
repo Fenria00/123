@@ -1,0 +1,28 @@
+
+public class Fooddetails {
+
+	public static void main(String []args){
+		
+	}
+	
+	public static class namelist{} // get name from Food
+	
+	public static class mGetWeight{
+		
+		public static void weightinput(){
+			
+		}
+		public static void returnnum(){
+			
+		}
+	public static class mNumberList{} //不見得需要 可按食材直接輸入重量就好 不用存成list
+	
+	}
+	
+	
+	
+	
+}
+
+從foodlist抓食材名稱 並輸入重量
+ 
