@@ -1,0 +1,19 @@
+
+public class Foodbook {
+
+	
+	public static void main(String []args){
+		
+	}
+	
+	public static class mFooddetailsList{} //get fooddetail form Fooddetails
+	
+	public static class mCulinary{
+		public static void wayinput(){}
+		
+	}
+	
+}
+
+從fooddeatil抓食材跟重量 或是直接輸入重量
+並可追加食譜料理法
