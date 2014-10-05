@@ -7,7 +7,7 @@ public class Fooddetails {
 	}
 	
 	public static class namelist{
-	Getname getname = new Getname();
+	GetName getname = new GetName();
 	
 	} // get name from Food
 	
@@ -19,7 +19,7 @@ public class Fooddetails {
 		public void returnnum(){
 			
 		}
-	
+	ArrayList<Integer> FoodList = new ArrayList<Integer>()
 	
 	}
 	
