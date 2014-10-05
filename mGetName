@@ -1,12 +1,7 @@
 
-public class Food {
+public class mGetName {
 
-	public static void main(String []args){
-		
-	}
 	
-	public static class mGetName{
-		
 		public void nameinput(){
 			
 		}
